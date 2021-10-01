@@ -1,0 +1,4 @@
+replicaCount: 1
+
+hello:
+  message: Hello GitOps Workshop

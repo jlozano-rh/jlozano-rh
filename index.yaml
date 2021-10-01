@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hello-app:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-01T14:11:02.285272-03:00"
+    description: A simple hello world application
+    digest: af8e3e016d3eebe29d6b1565c1e44c334a3cbb1776fa37cac94663064eccdc3d
+    name: hello-app
+    type: application
+    urls:
+    - charts/hello-app-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-10-01T14:11:02.284444-03:00"
