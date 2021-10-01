@@ -5,7 +5,7 @@ metadata:
   labels:
     app: hello
 spec:
-  replicas: 1
+  replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
       app: hello
@@ -23,7 +23,7 @@ spec:
               protocol: TCP
           env:
             - name: MSG
-              value: HOLA WORKSHOP GITOPS
+              value: {{ .Values.hello.message }}
           resources: {}
           terminationMessagePath: /dev/termination-log
           terminationMessagePolicy: File
