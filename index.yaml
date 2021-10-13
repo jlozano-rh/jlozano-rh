@@ -3,7 +3,17 @@ entries:
   hello-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-01T14:32:35.196205-03:00"
+    created: "2021-10-13T14:54:03.254737-03:00"
+    description: A simple hello world application
+    digest: e23cae83c8ff43db78cf5f4c13c69a7a395e036063d67d33bc681ff5e46daa5f
+    name: hello-app
+    type: application
+    urls:
+    - charts/hello-app-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-13T14:54:03.254206-03:00"
     description: A simple hello world application
     digest: e93bc4bc7923e01d46daaa60f73b8db249e7621ab8ef9dc43d7a0ae670361886
     name: hello-app
@@ -13,7 +23,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-10-01T14:32:35.195897-03:00"
+    created: "2021-10-13T14:54:03.253293-03:00"
     description: A simple hello world application
     digest: af8e3e016d3eebe29d6b1565c1e44c334a3cbb1776fa37cac94663064eccdc3d
     name: hello-app
@@ -21,4 +31,4 @@ entries:
     urls:
     - charts/hello-app-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-01T14:32:35.195407-03:00"
+generated: "2021-10-13T14:54:03.251894-03:00"

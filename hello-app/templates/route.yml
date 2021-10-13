@@ -10,5 +10,5 @@ spec:
     name: hello
     weight: 100
   port:
-    targetPort: 80-tcp
+    targetPort: 8080-tcp
   wildcardPolicy: None

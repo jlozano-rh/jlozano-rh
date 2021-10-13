@@ -17,12 +17,12 @@ spec:
       containers:
         - name: hello
           image: >-
-            quay.io/lozanotux/hello:latest
+            quay.io/lozanotux/hello-kubernetes:latest
           ports:
             - containerPort: 80
               protocol: TCP
           env:
-            - name: MSG
+            - name: MESSAGE
               value: {{ .Values.hello.message }}
           resources: {}
           terminationMessagePath: /dev/termination-log
