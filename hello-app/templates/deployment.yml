@@ -4,6 +4,7 @@ metadata:
   name: hello
   labels:
     app: hello
+    workshop: gitops
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
